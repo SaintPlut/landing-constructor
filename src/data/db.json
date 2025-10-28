@@ -1,0 +1,221 @@
+{
+  "templates": [
+    {
+      "id": "1",
+      "name": "Бизнес лендинг",
+      "description": "Профессиональный шаблон для бизнеса с современным дизайном. Идеально подходит для корпоративных сайтов и сервисов.",
+      "author": "Design Studio Pro",
+      "license": "MIT",
+      "price": 0,
+      "keywords": [
+        "бизнес",
+        "корпоративный",
+        "профессиональный",
+        "современный"
+      ],
+      "thumbnail": "https://via.placeholder.com/400x300/007bff/ffffff?text=Business+Template",
+      "editableBlocks": [
+        {
+          "id": "header_title",
+          "type": "text",
+          "label": "Заголовок страницы",
+          "defaultValue": "Добро пожаловать в наш бизнес",
+          "required": true
+        },
+        {
+          "id": "header_image",
+          "type": "image",
+          "label": "Главное изображение",
+          "defaultValue": "",
+          "required": true
+        },
+        {
+          "id": "description",
+          "type": "text",
+          "label": "Описание компании",
+          "defaultValue": "Мы предоставляем лучшие услуги в своей области с 2010 года",
+          "required": false
+        },
+        {
+          "id": "contact_info",
+          "type": "text",
+          "label": "Контактная информация",
+          "defaultValue": "Телефон: +7 (999) 999-99-99\nEmail: info@company.com",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Портфолио фотографа",
+      "description": "Элегантный шаблон для фотографов и творческих личностей. Подчеркивает ваши работы в лучшем свете.",
+      "author": "Creative Agency",
+      "license": "Commercial",
+      "price": 29,
+      "keywords": [
+        "фотография",
+        "портфолио",
+        "творческий",
+        "галерея",
+        "арт"
+      ],
+      "thumbnail": "https://via.placeholder.com/400x300/28a745/ffffff?text=Photography+Template",
+      "editableBlocks": [
+        {
+          "id": "photographer_name",
+          "type": "text",
+          "label": "Имя фотографа",
+          "defaultValue": "Иван Иванов",
+          "required": true
+        },
+        {
+          "id": "avatar",
+          "type": "image",
+          "label": "Аватар фотографа",
+          "defaultValue": "",
+          "required": true
+        },
+        {
+          "id": "bio",
+          "type": "text",
+          "label": "Биография",
+          "defaultValue": "Профессиональный фотограф с 5-летним опытом. Специализируюсь на портретной и свадебной фотографии.",
+          "required": false
+        },
+        {
+          "id": "portfolio_gallery",
+          "type": "image",
+          "label": "Галерея работ",
+          "defaultValue": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Интернет-магазин",
+      "description": "Современный шаблон для электронной коммерции с удобной навигацией и адаптивным дизайном.",
+      "author": "E-Commerce Solutions",
+      "license": "Premium",
+      "price": 49,
+      "keywords": [
+        "магазин",
+        "e-commerce",
+        "продажи",
+        "товары",
+        "онлайн"
+      ],
+      "thumbnail": "https://via.placeholder.com/400x300/dc3545/ffffff?text=E-commerce+Template",
+      "editableBlocks": [
+        {
+          "id": "store_name",
+          "type": "text",
+          "label": "Название магазина",
+          "defaultValue": "Мой интернет-магазин",
+          "required": true
+        },
+        {
+          "id": "logo",
+          "type": "image",
+          "label": "Логотип магазина",
+          "defaultValue": "",
+          "required": true
+        },
+        {
+          "id": "store_description",
+          "type": "text",
+          "label": "Описание магазина",
+          "defaultValue": "Лучшие товары по доступным ценам с быстрой доставкой по всей стране",
+          "required": false
+        },
+        {
+          "id": "featured_products",
+          "type": "image",
+          "label": "Изображения товаров",
+          "defaultValue": "",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ресторан и кафе",
+      "description": "Аппетитный шаблон для ресторанов, кафе и пищевого бизнеса. Вкусный дизайн для вашего меню.",
+      "author": "Food Design Studio",
+      "license": "Commercial",
+      "price": 39,
+      "keywords": [
+        "ресторан",
+        "кафе",
+        "еда",
+        "меню",
+        "кулинария"
+      ],
+      "thumbnail": "https://via.placeholder.com/400x300/fd7e14/ffffff?text=Restaurant+Template",
+      "editableBlocks": [
+        {
+          "id": "restaurant_name",
+          "type": "text",
+          "label": "Название заведения",
+          "defaultValue": "Ресторан 'Вкуснота'",
+          "required": true
+        },
+        {
+          "id": "restaurant_photo",
+          "type": "image",
+          "label": "Фото заведения",
+          "defaultValue": "",
+          "required": true
+        },
+        {
+          "id": "menu_description",
+          "type": "text",
+          "label": "Описание меню",
+          "defaultValue": "Мы готовим блюда из свежих продуктов по традиционным рецептам",
+          "required": false
+        },
+        {
+          "id": "signature_dishes",
+          "type": "image",
+          "label": "Фото фирменных блюд",
+          "defaultValue": "",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "landings": [
+    {
+      "templateId": "1",
+      "name": "Лендинг: Бизнес лендинг",
+      "createdAt": "2025-10-28T15:25:51.961Z",
+      "blocks": [
+        {
+          "id": "header_title",
+          "type": "text",
+          "content": "Добро пожаловать в наш бизнес",
+          "order": 0
+        },
+        {
+          "id": "header_image",
+          "type": "image",
+          "content": "",
+          "order": 1
+        },
+        {
+          "id": "description",
+          "type": "text",
+          "content": "Мы предоставляем лучшие услуги в своей области с 2010 года",
+          "order": 2
+        },
+        {
+          "id": "contact_info",
+          "type": "text",
+          "content": "Телефон: +7 (999) 999-99-99\nEmail: info@company.com",
+          "order": 3
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

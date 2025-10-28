@@ -20,14 +20,14 @@
           "type": "text",
           "label": "Заголовок страницы",
           "defaultValue": "Добро пожаловать в наш бизнес",
-          "required": true
+          "required": false
         },
         {
           "id": "header_image",
           "type": "image",
           "label": "Главное изображение",
           "defaultValue": "",
-          "required": true
+          "required": false
         },
         {
           "id": "description",
@@ -66,14 +66,14 @@
           "type": "text",
           "label": "Имя фотографа",
           "defaultValue": "Иван Иванов",
-          "required": true
+          "required": false
         },
         {
           "id": "avatar",
           "type": "image",
           "label": "Аватар фотографа",
           "defaultValue": "",
-          "required": true
+          "required": false
         },
         {
           "id": "bio",
@@ -112,14 +112,14 @@
           "type": "text",
           "label": "Название магазина",
           "defaultValue": "Мой интернет-магазин",
-          "required": true
+          "required": false
         },
         {
           "id": "logo",
           "type": "image",
           "label": "Логотип магазина",
           "defaultValue": "",
-          "required": true
+          "required": false
         },
         {
           "id": "store_description",
@@ -158,14 +158,14 @@
           "type": "text",
           "label": "Название заведения",
           "defaultValue": "Ресторан 'Вкуснота'",
-          "required": true
+          "required": false
         },
         {
           "id": "restaurant_photo",
           "type": "image",
           "label": "Фото заведения",
           "defaultValue": "",
-          "required": true
+          "required": false
         },
         {
           "id": "menu_description",
@@ -186,32 +186,18 @@
   ],
   "landings": [
     {
-      "templateId": "1",
-      "name": "Лендинг: Бизнес лендинг",
-      "createdAt": "2025-10-28T15:25:51.961Z",
+      "name": "Лендинг: Портфолио фотографа",
       "blocks": [
         {
-          "id": "header_title",
+          "id": "photographer_name",
           "type": "text",
-          "content": "Добро пожаловать в наш бизнес",
+          "content": "dwdawda",
           "order": 0
         },
         {
-          "id": "header_image",
+          "id": "portfolio_gallery",
           "type": "image",
           "content": "",
-          "order": 1
-        },
-        {
-          "id": "description",
-          "type": "text",
-          "content": "Мы предоставляем лучшие услуги в своей области с 2010 года",
-          "order": 2
-        },
-        {
-          "id": "contact_info",
-          "type": "text",
-          "content": "Телефон: +7 (999) 999-99-99\nEmail: info@company.com",
           "order": 3
         }
       ],

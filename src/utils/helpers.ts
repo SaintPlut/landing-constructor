@@ -23,7 +23,7 @@ export const simulateImageUpload = (file: File): Promise<string> => {
   return new Promise((resolve) => {
     const reader = new FileReader();
     reader.onload = (e) => {
-      // В реальном приложении здесь был бы upload на сервер
+      // Имитация задержки загрузки
       setTimeout(() => resolve(e.target?.result as string), 1000);
     };
     reader.readAsDataURL(file);

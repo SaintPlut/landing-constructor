@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Layout, TemplatesList, TemplateDetails } from './pages';
-// import { Constructor } from './pages'; // Пока закомментируем
+import { Layout, TemplatesList, TemplateDetails, Constructor } from './pages';
 import './App.css';
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<TemplatesList />} />
           <Route path="/template/:id" element={<TemplateDetails />} />
-          {/* <Route path="/constructor/:id" element={<Constructor />} /> */}
+          <Route path="/constructor/:id" element={<Constructor />} />
         </Routes>
       </Layout>
     </Router>

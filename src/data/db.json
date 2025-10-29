@@ -13,7 +13,7 @@
         "профессиональный",
         "современный"
       ],
-      "thumbnail": "https://via.placeholder.com/400x300/007bff/ffffff?text=Business+Template",
+      "thumbnail": "https://vitvesti.by/images/2022/08/24/biz.jpg",
       "editableBlocks": [
         {
           "id": "header_title",
@@ -26,7 +26,7 @@
           "id": "header_image",
           "type": "image",
           "label": "Главное изображение",
-          "defaultValue": "",
+          "defaultValue": "https://picsum.photos/id/2/1200/600",
           "required": false
         },
         {
@@ -59,7 +59,7 @@
         "галерея",
         "арт"
       ],
-      "thumbnail": "https://via.placeholder.com/400x300/28a745/ffffff?text=Photography+Template",
+      "thumbnail": "https://i.pinimg.com/originals/bf/d5/45/bfd545fbe208315eb52524a2bc274989.jpg",
       "editableBlocks": [
         {
           "id": "photographer_name",
@@ -72,7 +72,7 @@
           "id": "avatar",
           "type": "image",
           "label": "Аватар фотографа",
-          "defaultValue": "",
+          "defaultValue": "https://picsum.photos/id/64/200/200",
           "required": false
         },
         {
@@ -86,7 +86,7 @@
           "id": "portfolio_gallery",
           "type": "image",
           "label": "Галерея работ",
-          "defaultValue": "",
+          "defaultValue": "https://picsum.photos/id/26/800/600",
           "required": false
         }
       ]
@@ -105,7 +105,7 @@
         "товары",
         "онлайн"
       ],
-      "thumbnail": "https://via.placeholder.com/400x300/dc3545/ffffff?text=E-commerce+Template",
+      "thumbnail": "https://images.steamusercontent.com/ugc/14180816887404947/A5FB8C8D2B0A3F5AA9C5E22EB668B8AC8516DDC2/?imw=512&amp;imh=268&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true",
       "editableBlocks": [
         {
           "id": "store_name",
@@ -118,7 +118,7 @@
           "id": "logo",
           "type": "image",
           "label": "Логотип магазина",
-          "defaultValue": "",
+          "defaultValue": "https://picsum.photos/id/28/150/150",
           "required": false
         },
         {
@@ -132,7 +132,7 @@
           "id": "featured_products",
           "type": "image",
           "label": "Изображения товаров",
-          "defaultValue": "",
+          "defaultValue": "https://picsum.photos/id/27/800/600",
           "required": false
         }
       ]
@@ -151,7 +151,7 @@
         "меню",
         "кулинария"
       ],
-      "thumbnail": "https://via.placeholder.com/400x300/fd7e14/ffffff?text=Restaurant+Template",
+      "thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/max_808/625aa7125535685.Y3JvcCwxMDgwLDg0NCwwLDExNw.png",
       "editableBlocks": [
         {
           "id": "restaurant_name",
@@ -164,7 +164,7 @@
           "id": "restaurant_photo",
           "type": "image",
           "label": "Фото заведения",
-          "defaultValue": "",
+          "defaultValue": "https://picsum.photos/id/431/1000/600",
           "required": false
         },
         {
@@ -178,7 +178,7 @@
           "id": "signature_dishes",
           "type": "image",
           "label": "Фото фирменных блюд",
-          "defaultValue": "",
+          "defaultValue": "https://picsum.photos/id/312/800/600",
           "required": false
         }
       ]
@@ -186,56 +186,41 @@
   ],
   "landings": [
     {
-      "name": "Лендинг: Портфолио фотографа",
+      "templateId": "3",
+      "name": "Лендинг: Интернет-магазин",
+      "createdAt": "2025-10-29T18:24:30.713Z",
       "blocks": [
         {
-          "id": "photographer_name",
+          "id": "store_name",
           "type": "text",
-          "content": "dwdawda",
+          "content": "Мой интернет-магазин",
           "order": 0
         },
         {
-          "id": "portfolio_gallery",
+          "id": "logo",
           "type": "image",
-          "content": "",
+          "content": "https://picsum.photos/id/28/150/150",
+          "order": 1
+        },
+        {
+          "id": "store_description",
+          "type": "text",
+          "content": "Лучшие товары по доступным ценам с быстрой доставкой по всей стране",
+          "order": 2
+        },
+        {
+          "id": "featured_products",
+          "type": "image",
+          "content": "https://picsum.photos/id/27/800/600",
           "order": 3
         }
       ],
       "id": 1
     },
     {
-      "templateId": "1",
-      "name": "Лендинг: Бизнес лендинг",
-      "createdAt": "2025-10-29T17:26:38.274Z",
-      "blocks": [
-        {
-          "id": "header_title",
-          "type": "text",
-          "content": "Добро пожаловать в наш бизнес",
-          "order": 0
-        },
-        {
-          "id": "header_image",
-          "type": "image",
-          "content": "",
-          "order": 1
-        },
-        {
-          "id": "description",
-          "type": "text",
-          "content": "Мы предоставляем лучшие услуги в своей области с 2010 года",
-          "order": 2
-        },
-        {
-          "id": "contact_info",
-          "type": "text",
-          "content": "Телефон: +7 (999) 999-99-99\nEmail: info@company.com",
-          "order": 3
-        }
-      ],
-      "id": 2
-    },
-    {
+      "templateId": "2",
+      "name": "Лендинг: Портфолио фотографа",
+      "createdAt": "2025-10-29T18:24:43.225Z",
       "blocks": [
         {
           "id": "photographer_name",
@@ -246,115 +231,23 @@
         {
           "id": "avatar",
           "type": "image",
-          "content": "",
+          "content": "https://picsum.photos/id/64/200/200",
           "order": 1
-        },
-        {
-          "id": "portfolio_gallery",
-          "type": "image",
-          "content": "",
-          "order": 2
         },
         {
           "id": "bio",
           "type": "text",
           "content": "Профессиональный фотограф с 5-летним опытом. Специализируюсь на портретной и свадебной фотографии.",
-          "order": 3
-        }
-      ],
-      "id": 3
-    },
-    {
-      "templateId": "1",
-      "name": "Лендинг: Бизнес лендинг",
-      "createdAt": "2025-10-29T17:28:23.922Z",
-      "blocks": [
-        {
-          "id": "header_title",
-          "type": "text",
-          "content": "Добро пожаловать в наш бизнес",
-          "order": 0
-        },
-        {
-          "id": "header_image",
-          "type": "image",
-          "content": "",
-          "order": 1
-        },
-        {
-          "id": "description",
-          "type": "text",
-          "content": "Мы предоставляем лучшие услуги в своей области с 2010 года",
           "order": 2
         },
         {
-          "id": "contact_info",
-          "type": "text",
-          "content": "Телефон: +7 (999) 999-99-99\nEmail: info@company.com",
-          "order": 3
-        }
-      ],
-      "id": 4
-    },
-    {
-      "name": "Мой лендинг: Бизнес лендинг",
-      "blocks": [
-        {
-          "id": "header_title",
-          "type": "text",
-          "content": "Добро пожаловать в наш бизнес",
-          "order": 0
-        },
-        {
-          "id": "header_image",
+          "id": "portfolio_gallery",
           "type": "image",
-          "content": "",
-          "order": 1
-        },
-        {
-          "id": "description",
-          "type": "text",
-          "content": "Мы предоставляем лучшие услуги в своей области с 2010 года",
-          "order": 2
-        },
-        {
-          "id": "contact_info",
-          "type": "text",
-          "content": "Телефон: +7 (999) 999-99-99\nEmail: info@company.com",
+          "content": "https://picsum.photos/id/26/800/600",
           "order": 3
         }
       ],
-      "id": 5
-    },
-    {
-      "name": "Мой лендинг: Бизнес лендинг",
-      "blocks": [
-        {
-          "id": "header_title",
-          "type": "text",
-          "content": "Добро пожаловать в наш бизнес",
-          "order": 0
-        },
-        {
-          "id": "header_image",
-          "type": "image",
-          "content": "",
-          "order": 1
-        },
-        {
-          "id": "description",
-          "type": "text",
-          "content": "Мы предоставляем лучшие услуги в своей области с 2010 года",
-          "order": 2
-        },
-        {
-          "id": "contact_info",
-          "type": "text",
-          "content": "Телефон: +7 (999) 999-99-99\nEmail: info@company.com",
-          "order": 3
-        }
-      ],
-      "id": 6
+      "id": 2
     }
   ]
 }

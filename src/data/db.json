@@ -164,7 +164,7 @@
           "id": "restaurant_photo",
           "type": "image",
           "label": "Фото заведения",
-          "defaultValue": "https://picsum.photos/id/431/1000/600",
+          "defaultValue": "https://scdn.tomesto.ru/img/place/000/023/345/restoran-seven-v-dmitrovskom-pereulke_c0f8f_full-93891.jpg",
           "required": false
         },
         {
@@ -178,7 +178,7 @@
           "id": "signature_dishes",
           "type": "image",
           "label": "Фото фирменных блюд",
-          "defaultValue": "https://picsum.photos/id/312/800/600",
+          "defaultValue": "https://i.pinimg.com/736x/ea/d4/88/ead488b608a1d040a7b36f85d2888576.jpg",
           "required": false
         }
       ]
@@ -188,7 +188,7 @@
     {
       "templateId": "3",
       "name": "Лендинг: Интернет-магазин",
-      "createdAt": "2025-10-29T18:24:30.713Z",
+      "createdAt": "2025-10-29T18:32:02.032Z",
       "blocks": [
         {
           "id": "store_name",
@@ -216,38 +216,6 @@
         }
       ],
       "id": 1
-    },
-    {
-      "templateId": "2",
-      "name": "Лендинг: Портфолио фотографа",
-      "createdAt": "2025-10-29T18:24:43.225Z",
-      "blocks": [
-        {
-          "id": "photographer_name",
-          "type": "text",
-          "content": "Иван Иванов",
-          "order": 0
-        },
-        {
-          "id": "avatar",
-          "type": "image",
-          "content": "https://picsum.photos/id/64/200/200",
-          "order": 1
-        },
-        {
-          "id": "bio",
-          "type": "text",
-          "content": "Профессиональный фотограф с 5-летним опытом. Специализируюсь на портретной и свадебной фотографии.",
-          "order": 2
-        },
-        {
-          "id": "portfolio_gallery",
-          "type": "image",
-          "content": "https://picsum.photos/id/26/800/600",
-          "order": 3
-        }
-      ],
-      "id": 2
     }
   ]
 }

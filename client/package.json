@@ -1,0 +1,20 @@
+{
+  "name": "landing-builder-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack landing page builder",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "db:init": "cd server && npm run db:init"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "keywords": ["landing", "builder", "react", "nodejs", "postgresql"],
+  "author": "Your Name",
+  "license": "MIT"
+}
